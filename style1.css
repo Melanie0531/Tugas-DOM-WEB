@@ -1,0 +1,96 @@
+h1 {
+    color:rgb(231, 110, 171); font-family: 'Times New Roman'; text-align: center;
+}
+
+
+body {
+    background-color:antiquewhite;
+}
+
+th{
+    background-color: rgb(217, 217, 217);
+    text-align: left;
+    border: 1px solid;
+}
+
+img{    
+    border-radius: 10%;
+    width: 180px;
+    height: 190px;
+    border: solid;
+    border-color: #696969;
+    margin-left: 100px;
+}
+
+button{
+    padding: 4px 14px;
+    margin-left: 148px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+table{
+    border: 4px solid rgb(140, 140, 140);
+    width: max-content;
+    
+}
+td{
+    border: 1px solid;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.kiri {
+    margin-left: 120px;
+    font-family: 'Gabriela', serif;
+    background-color: #E58FFE;
+    border-radius: 10px;
+    width:max-content;
+    padding:4px 4px;
+    
+    
+}
+
+.tengah {
+    font-family: 'Gabriela', serif;
+    background-color: #ED5094 ;
+    border-radius: 10px;
+    width: max-content;
+    position: relative;
+    left: 128px ;
+    padding: 4px 4px;
+
+
+}
+
+.kanan {
+    margin-left: 120px;
+    font-family: 'Gabriela', serif;
+    background-color: #628BFE ;
+    border-radius: 10px;
+    width:max-content;
+    padding:4px 4px;
+}
+
+#container{
+    display: inline-flex;
+}
+
+.div1,.div2,.div3 {
+    margin-left: 64px;
+
+}
